@@ -1,6 +1,6 @@
 # DA6401-Assignment 2 
 # Part A
-# Question 01: Flexible CNN on iNaturalist Dataset
+# Question 01: CNN on iNaturalist Dataset
 
 
  Dataset Setup
@@ -74,9 +74,8 @@ Training Setup
 sweep_id = wandb.sweep(sweep_settings, project="vision-model-sweep")
 wandb.agent(sweep_id, function=launch_training, count=20)
 ```
-# Question 03 : Wandb report
+# Question 03 & 04 : Wandb report, Final Test Evaluation using Best Model
 
-# Question 04: Final Test Evaluation using Best Model
 
 
 
